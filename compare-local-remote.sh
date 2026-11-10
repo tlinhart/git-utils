@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+export LC_ALL=C
+
 TOKEN=${GITHUB_TOKEN:?"required environment variable is not set"}
 ORG=${GITHUB_ORG:?"required environment variable is not set"}
 BASE_DIR=${BASE_DIR:-$(pwd)}
